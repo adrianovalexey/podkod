@@ -1,0 +1,87 @@
+<!-- simple-todos.html -->
+<head>
+  <title>Подкод экспедитора</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+
+
+<!--       <h1>Подкод экспедитора</h1> -->
+  
+
+<!-- <form id="myform">
+	<input type="text" name="filial" placeholder="Введите филиал" />
+	<input type="text" name="client" placeholder="Введите клиента" />
+	<input type="text" name="dog" placeholder="Введите номер договора" />
+    <input type="submit" id = "submit" value="Получить подкод">
+    </form> -->
+
+
+<form action = "index.html" method="GET">
+<h1> Подкод экспедитора ОАО "ПГК" </h1>
+<fieldset>
+<legend><span class = "number">1</span></legend>
+<label for="filial_name">Укажите свой филиал:</label>
+<input type="text" id = "filial_name" name="filial"  placeholder= "Иркутский филиал" required = "yes" >
+
+</fieldset>
+
+<fieldset>
+<legend><span class = "number">2</span></legend>
+<label for="client_name">Укажите наименование клиента:</label>
+<input type="text" id = "client_name" name="client"  placeholder= "ООО ''Новый завод минеральных удобрений''">
+
+<label for="dog_num">Укажите номер договора:</label>
+<input type="text" id = "dog_num" name="dog"  placeholder= "ДД/ФИРК/ТЭО-441/15">
+
+    
+
+</fieldset>
+
+
+      <button type = "submit">Получить подкод</button>
+
+ </form>   
+
+
+    </header>
+
+    <ul>
+    <thead>
+    	<tr>
+    		<td>Филиал</td>
+    		<td>Наименование клиента</td>
+    		<td>№ Договора</td>
+    		<td>Подкод</td>
+
+    	</tr>
+
+    </thead>
+    <tbody>
+      {{#each foo}}
+        <tr>
+        <td> {{filial}}</td>
+        
+        <td> {{client}}</td>
+
+        <td> {{dog}}</td>
+        <td>{{podkodFin}}</td>
+        </tr>
+      {{/each}}
+      </tbody>
+    </ul>
+
+
+  </div>
+
+</body>
+
+
+
+
+
+
+
+
