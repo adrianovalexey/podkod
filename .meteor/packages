@@ -5,10 +5,18 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 insecure
 meteorhacks:npm
 
 
 npm-container
 pfafman:filesaver
+jquery-ui
+sacha:spin
+sergeyt:typeahead
+blaze
+ui
+jquery
+mizzao:autocomplete
+iron:router
+twbs:bootstrap

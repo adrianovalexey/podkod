@@ -1,0 +1,11 @@
+{
+  "packages": {
+        "sergeyt:typeahead": {
+      "path": ".."
+    },
+    "jquery-ui": {},
+
+    "mizzao:autocomplete": {
+      "path": "../.."
+    }
+}

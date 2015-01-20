@@ -1,0 +1,65 @@
+
+<template name="formData">
+  <title>Подкод экспедитора ОАО "ПГК" </title>
+{{>form}}
+</template>
+
+<template name="form">
+
+<form>
+<fieldset>
+<legend><span class = "number">1</span></legend>
+<label for="filial_name">Укажите свой филиал:</label>
+<input type="text" id = "filial_name" name="filial"  placeholder= "Иркутский филиал" required 
+autocomplete="off" spellcheck="off" autofocus
+data-source = "FilialNames.name" >
+
+</fieldset>
+
+<fieldset>
+<legend><span class = "number">2</span></legend>
+<label for="client_name">Укажите наименование клиента:</label>
+<input type="text" id = "client_name" name="client"  placeholder= "ООО ''Байкал Инвест''" required autocomplete="off">
+
+<label for="dog_num">Укажите номер договора:</label>
+<input type="text" id = "dog_num" name="dog"  placeholder= "ДД/ФИРК/ТЭО-441/15" required autocomplete="off">
+
+ 
+
+</fieldset>
+<div class = "bClick">
+
+
+
+       <button type = "submit" id="alert1" > Получить подкод </button>
+
+
+
+
+<!-- <button type="submit" id="alert1" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Получить подкод</button>
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <p> {{>podkodData}} </p>
+    </div>
+  </div>
+</div> -->
+
+</div>
+<!--  {{>podkodData}} -->
+ 
+
+ </form> 
+
+
+
+ </template>
+
+
+<template name = "filialNames">
+<p class="filial-names"> {{name}} </p>	
+</template>
+
+
+

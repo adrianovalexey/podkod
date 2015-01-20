@@ -1,0 +1,195 @@
+/* CSS declarations go here */
+
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  color: #716d6a;
+  background-color: #809999;
+  background-image: linear-gradient(to bottom, #809999, #fff 100%);
+  background-attachment: fixed;
+  margin-top: 30px;
+}
+
+
+form {
+  max-width: 480px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+::-webkit-input-placeholder {
+   color: ddd;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ddd;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ddd;  
+}
+
+:-ms-input-placeholder {  
+   color: #ddd;  
+}
+
+h1 {
+  color: #fff;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 19px;
+  font-weight: bold;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 90%;
+  background-color: #e8eeef;
+  color: #595570;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 6px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 12px 29px 12px 29px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 1px;
+}
+
+fieldset {
+  margin-bottom: 1px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 27px;
+  width: 27px;
+  display: inline-block;
+  font-size: 0.7em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}
+
+
+.podstyle {
+  margin: 10px auto;
+  padding: 10px 20px;
+  max-width: 480px;
+  background: #f4f7f8;
+  border-radius: 8px;
+
+font: 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-align: center;
+font-size: 1.5em; /* 53px/16px  */
+font-weight: normal;
+line-height: 1.1;
+height: 489px;
+border-top: 1px solid #888;
+
+
+    
+}
+
+.podstyle p {
+padding-top: 140px;
+color: #999;
+  
+}
+
+ .podstyle .clientName {
+  padding-top: 140px;
+  color: #5fcf80;
+  
+  font-size: 1.12em;
+  
+}
+
+.podstyle h3 {
+  color: #65f;
+  font-size: 1.5em;
+  padding-bottom: 40%;
+
+}
+
+.podstyle a {
+margin-top: 50px;
+font-weight: normal;
+line-height: 1.1;
+color: #5fcf80;
+border-top: 2px solid #5fcf80;
+font-size: .75em;
+
+  
+}
+
+
+.support {
+  text-align: center;
+}
+
