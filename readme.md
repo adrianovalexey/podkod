@@ -67,9 +67,10 @@ lastElem = Foo.find().fetch().length-1; - находим индекс после
 
 ## Data Science Specialization 
 
-* Uses R 
-* Nine courses 
+*** Uses R 
+** Nine courses 
 * Goes from raw data to data products
 
+###Goes from raw data to data products
 
 
