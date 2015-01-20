@@ -65,9 +65,6 @@ lastElem = Foo.find().fetch().length-1; - находим индекс после
 
 
 
-## Data Science Specialization 
 
-
-###Goes from raw data to data products
 
 
